@@ -171,11 +171,11 @@ component
   => Newtype (form Internal.Input) (Record inputs)
   => Component pq ps form out m
 component =
-  H.component
+  H.mkComponent
     { initialState
     , render: extract
     , eval
-    , receiver: HE.input Receive
+    , receiver: HE.onInput Receive
     , initializer: Nothing
     , finalizer: Nothing
     }

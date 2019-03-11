@@ -26,5 +26,14 @@
     "purescript-debug": "^4.0.0",
     "purescript-test-unit": "^14.0.0",
     "purescript-read": "^1.0.1"
+  },
+  "resolutions": {
+    "purescript-foreign-object": "^2.0.1",
+    "purescript-typelevel-prelude": "^4.0.0",
+    "purescript-web-html": "^2.0.0",
+    "purescript-web-file": "^2.0.0",
+    "purescript-web-dom": "^2.0.0",
+    "purescript-web-storage": "^3.0.0",
+    "purescript-web-events": "^2.0.0"
   }
 }
